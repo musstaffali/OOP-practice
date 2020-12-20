@@ -1,9 +1,4 @@
 
-function Circle(radius) {
-    this.radius = radius;
-    this.draw = function() {
-        console.log('draw');
-    }
-}
-
-const another = new Circle(1);
+let x = 10;
+let y = x;
+x = 20;

@@ -1,4 +1,8 @@
+let number = 10;
 
-let x = 10;
-let y = x;
-x = 20;
+function increase(number) {
+    number++;
+}
+
+increase(number);
+console.log(number);

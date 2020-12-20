@@ -1,8 +1,8 @@
-let number = 10;
-
-function increase(number) {
-    number++;
+function Circle(radius) {
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+    }
 }
 
-increase(number);
-console.log(number);
+const circle = new Circle(10);
